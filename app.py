@@ -13,11 +13,13 @@ import streamlit as st
 st.set_page_config(page_title="Adama Lab Results Notebooks", page_icon="🔬")
 
 # --- Logo and Title ---
+# Center logo using st.image and custom title below
+st.image("AdamaLogo.png", width=250)
+
 st.markdown(
     """
     <div style="text-align: center;">
-        <img src="AdamaLogo.png" width="250" />
-        <h1 style='margin-top: 10px;'>Adama – Lab Notebook Portal</h1>
+        <h1 style='margin-top: 10px;'>Adama – Lab Results Notebook Portal</h1>
         <p style='font-size:18px;'>Select the relevant notebook by category. Clicking will open it in Google Colab.</p>
     </div>
     <hr style="margin-top: 30px;"/>
