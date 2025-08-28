@@ -35,7 +35,7 @@ BASE_COLAB_URL = f"https://colab.research.google.com/github/{GITHUB_USER}/{REPO_
 # --- Notebooks Dictionary ---
 notebooks = {
     "SekerKarka": [
-        ("Alchem_soil_results_(Vr_4)", "LabResults/SekerKarka/Alchem_soil_results_(Vr_4).ipynb"),
+        ("Alchem_soil_results_(Vr_5)", "LabResults/SekerKarka/Alchem_soil_results_(Vr_5).ipynb"),
         ("KTE_soil_results", "LabResults/SekerKarka/KTE_soil_results.ipynb"),
         ("Machon_Haneft_soil_results_(Vr_4)", "LabResults/SekerKarka/Machon_Haneft_soil_results_(Vr_4).ipynb"),
     ],
